@@ -396,10 +396,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('⚚ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('🙋 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ 🤷', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('💠 ʙᴏᴛ ᴜᴘᴅᴀᴛᴇs 💠', url='https://t.me/Cynitebots'),     
-            InlineKeyboardButton('♻️ ʜᴇʟᴘ ♻️', callback_data='help')],[
+            InlineKeyboardButton('🎉 Channel ᴜᴘᴅᴀᴛᴇs 😁', url='https://t.me/allnewmovieintime'),     
+            InlineKeyboardButton('🙎 ʜᴇʟᴘ', callback_data='help')],[
             InlineKeyboardButton('♻️ ᴀʙᴏᴜᴛ ♻️', callback_data='about'), 
             InlineKeyboardButton('🔍sᴇᴀʀᴄʜ', switch_inline_query_current_chat=''), ]]
         reply_markup = InlineKeyboardMarkup(buttons)      
@@ -428,7 +428,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons= [[
-            InlineKeyboardButton('♥️ SOURCE ♥️', url='https://github.com/CyniteOfficial/Auto-Filter')
+            InlineKeyboardButton('♥️ SOURCE ♥️', url='https://github.com/Movieschannelofficials/Auto-filter-bot-/blob/master/app.json')
             ],[
             InlineKeyboardButton('🏠 𝗛𝗼𝗺𝗲 🏠', callback_data='start'),
             InlineKeyboardButton('🔐 𝗖𝗹𝗼𝘀𝗲 🔐', callback_data='close_data')
